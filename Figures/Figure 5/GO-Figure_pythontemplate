@@ -1,0 +1,11 @@
+# see gitlab.com/evogenlab/Go-Figure for detailed user guide to GO-Figure!
+
+#base Go-Figure code
+
+python gofigure.py -i input_file.tsv -o out_directory -j topgo
+
+# we had three experimental group comparison: COL.wMel v COL.tet baseline, no ZIKV; COL.wMel v COL.tet, ZIKV-exposed; ZIKV-exposed v plain bloodmeal, COL,tet
+
+# within those three comparisons, there was an input tsv file for every combination of tissue type, dpf, and up or down regulated
+
+# example input files: noinfect_C4down.tsv, zikvinfect_MG7up.tsv, susinfect_MG7up.tsv
